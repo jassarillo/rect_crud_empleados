@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import  Listar  from "./componentes/Listar";
 import Crear from "./componentes/Crear";
-import SearchBar from "./components/SearchBar";
+import SearchBar from "./componentes/SearchBar";
 import {  BrowserRouter as Router,  Route,  Routes} from "react-router-dom";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
                 <Routes>
                 <Route path='/' element={<Listar></Listar>}> </Route>
                 <Route path='/Crear' element={<Crear></Crear>}> </Route>
-                <Route path='/Buscar' element={<SearchBar></SearchBar>}> </Route>
+                <Route path='/Buscar' element={<SearchBar ></SearchBar>}> </Route>
                 </Routes>
             </div>
         </Router>
